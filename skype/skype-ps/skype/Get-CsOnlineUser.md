@@ -41,7 +41,7 @@ If you do not know your tenant IDs you can return that information by using this
 
 `Get-CsTenant`
 
-If you have a hybrid or "split domain" deployment (that is, a deployment in which some users have accounts homed on Skype for Business Online while other users have accounts homed on an on-premises version of Skype for Business Server 2015) keep in mind that the Get-CsOnlineUser cmdlet only returns information for Skype for Business Online users.
+If you have a hybrid (on Prem)  or "split domain" deployment (that is, a deployment in which some users have accounts homed on Skype for Business Online while other users have accounts homed on an on-premises version of Skype for Business Server 2015) keep in mind that the Get-CsOnlineUser cmdlet only returns information for Skype for Business Online users.
 However, the cmdlet will return information for both online users and on-premises users.
 If you want to exclude Skype for Business Online users from the data returned by the Get-CsUser cmdlet, use the following command:
 
